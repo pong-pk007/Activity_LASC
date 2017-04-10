@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.project.alertactivity_lasc.ChangePass">
+
+    <RelativeLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffcc33">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_toRightOf="@+id/imageView2"
+            android:gravity="center_vertical"
+            android:text="เปลี่ยนรหัสผ่าน"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/head"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="รหัสผ่านใหม่"
+        android:inputType="numberPassword"
+        android:password="true" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText4"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="รหัสผ่านใหม่อีกครั้ง"
+        android:inputType="numberPassword"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText5"
+        android:layout_margin="5dp"
+        android:background="#ffcc33"
+        android:text="ตกลง"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffff" />
+
+</RelativeLayout>

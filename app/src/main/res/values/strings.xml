@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Activity LASC</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_album">Album</string>
+    <string name="title_activity_question">Question</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_question2">Question2</string>
+    <string name="textName">ระบบงานกิจกรรมคณะศิลปศาสตร์และวิทยาศาสตร์ กรณีศึกษามหาวิทยาลัยราชภัฏศรีสะเกษ</string>
+    <string name="textFooter">ระบบงานกิจกรรมคณะศิลปศาสตร์และวิทยาศาสตร์ มหาวิทยาลัยราชภัฏศรีสะเกษ เป็นส่วนหนึ่งของวิชาโครงการทางวิทยาการคอมพิวเตอร์</string>
+</resources>

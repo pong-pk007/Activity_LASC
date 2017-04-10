@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.alertactivity_lasc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".home"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.project.alertactivity_lasc.MainActivity"
+            android:label="@string/app_name"/>
+
+        <service
+            android:name="com.project.alertactivity_lasc.AlertActivityService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity
+            android:name="com.project.alertactivity_lasc.News"
+            android:label="@string/title_activity_news"></activity>
+        <activity
+            android:name="com.project.alertactivity_lasc.Calendar"
+            android:label="@string/title_activity_calendar"></activity>
+        <activity
+            android:name="com.project.alertactivity_lasc.Question"
+            android:label="@string/title_activity_question"></activity>
+        <activity
+            android:name="com.project.alertactivity_lasc.Profile"
+            android:label="@string/title_activity_profile"></activity>
+        <activity
+            android:name="com.project.alertactivity_lasc.Question2"
+            android:label="@string/title_activity_question2"></activity>
+        <activity android:name="com.project.alertactivity_lasc.Question3"></activity>
+        <activity android:name="com.project.alertactivity_lasc.News2"></activity>
+        <activity android:name="com.project.alertactivity_lasc.Calendar2"></activity>
+        <activity android:name="com.project.alertactivity_lasc.ChangePass"></activity>
+        <activity android:name="com.project.alertactivity_lasc.About"></activity>
+    </application>
+
+</manifest>

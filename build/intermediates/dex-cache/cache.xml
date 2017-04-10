@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\pongs_000\Desktop\Android\Examples\Activity_LASC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01e6226e6d85204a02d30e42149e50d16fb5ae7f">
+        <dex dex="C:\Users\pongs_000\Desktop\Android\Examples\Activity_LASC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0ea4a61e047004a6a62520646828db1e6cf48cc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pongs_000\Desktop\Android\Examples\Activity_LASC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\pongs_000\Desktop\Android\Examples\Activity_LASC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c3863970403cd6c072ef20581a1d60e98b8df604\classes.dex" />
+    </item>
+
+</items>
